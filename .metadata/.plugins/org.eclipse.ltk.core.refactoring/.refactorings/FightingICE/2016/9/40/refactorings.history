@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FightingICE/data/ai/RandomAI.jar&apos; to &apos;semana_i.jar&apos;" description="Rename resource &apos;RandomAI.jar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="data/ai/RandomAI.jar" name="semana_i.jar" stamp="1475018614842" updateReferences="true"/>
+</session>
