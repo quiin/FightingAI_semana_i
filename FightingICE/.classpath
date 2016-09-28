@@ -10,7 +10,7 @@
 	<classpathentry kind="lib" path="lib/lwjgl_util.jar"/>
 	<classpathentry kind="lib" path="lib/lwjgl.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="FightingICE/lib/native/linux"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="FightingICE/lib/native/macosx"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="FightingICE.jar"/>
