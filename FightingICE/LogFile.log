@@ -1,146 +1,166 @@
-Sep 27, 2016 6:58:12 PM display.DisplayManager start
+Sep 28, 2016 10:33:54 AM display.DisplayManager start
 INFO: Set Display Mode:960*640
-Sep 27, 2016 6:58:13 PM display.DisplayManager start
+Sep 28, 2016 10:33:55 AM display.DisplayManager start
 INFO: Create Display
-Sep 27, 2016 6:58:13 PM display.DisplayManager start
+Sep 28, 2016 10:33:55 AM display.DisplayManager start
 INFO: Initialize OpenGL
-Sep 27, 2016 6:58:17 PM game.GameState registerId
+Sep 28, 2016 10:33:55 AM game.GameState registerId
 INFO: This game state is registered as : ID 0
-Sep 27, 2016 6:58:17 PM game.GameManager startGame
+Sep 28, 2016 10:33:55 AM game.GameManager startGame
 INFO: Start Game State at : ID 0
-Sep 27, 2016 6:58:23 PM game.GameState registerId
+Sep 28, 2016 10:33:58 AM game.GameState registerId
 INFO: This game state is registered as : ID 1
-Sep 27, 2016 6:58:23 PM game.GameManager changeGameState
+Sep 28, 2016 10:33:58 AM game.GameManager changeGameState
 INFO: Change Game State to : ID 1
-Sep 27, 2016 6:58:23 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_NEUTRAL has been loaded.
-Sep 27, 2016 6:58:24 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND has been loaded.
-Sep 27, 2016 6:58:24 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_FORWARD_WALK has been loaded.
-Sep 27, 2016 6:58:24 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_DASH has been loaded.
-Sep 27, 2016 6:58:24 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_BACK_STEP has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_JUMP has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_FOR_JUMP has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_BACK_JUMP has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:33:59 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_GUARD has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_GUARD has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_GUARD has been loaded.
-Sep 27, 2016 6:58:25 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_GUARD_RECOV has been loaded.
-Sep 27, 2016 6:58:26 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_GUARD_RECOV has been loaded.
-Sep 27, 2016 6:58:26 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_GUARD_RECOV has been loaded.
-Sep 27, 2016 6:58:26 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_RECOV has been loaded.
-Sep 27, 2016 6:58:26 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_RECOV has been loaded.
-Sep 27, 2016 6:58:26 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_RECOV has been loaded.
-Sep 27, 2016 6:58:26 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CHANGE_DOWN has been loaded.
-Sep 27, 2016 6:58:26 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_DOWN has been loaded.
-Sep 27, 2016 6:58:27 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_RISE has been loaded.
-Sep 27, 2016 6:58:27 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_LANDING has been loaded.
-Sep 27, 2016 6:58:27 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_THROW_A has been loaded.
-Sep 27, 2016 6:58:27 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_THROW_B has been loaded.
-Sep 27, 2016 6:58:27 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_THROW_HIT has been loaded.
-Sep 27, 2016 6:58:27 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_THROW_SUFFER has been loaded.
-Sep 27, 2016 6:58:27 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_A has been loaded.
-Sep 27, 2016 6:58:28 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_B has been loaded.
-Sep 27, 2016 6:58:28 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_A has been loaded.
-Sep 27, 2016 6:58:28 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:00 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_B has been loaded.
-Sep 27, 2016 6:58:28 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_A has been loaded.
-Sep 27, 2016 6:58:28 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_B has been loaded.
-Sep 27, 2016 6:58:28 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_DA has been loaded.
-Sep 27, 2016 6:58:28 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_DB has been loaded.
-Sep 27, 2016 6:58:28 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_FA has been loaded.
-Sep 27, 2016 6:58:29 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_FB has been loaded.
-Sep 27, 2016 6:58:29 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_FA has been loaded.
-Sep 27, 2016 6:58:29 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_CROUCH_FB has been loaded.
-Sep 27, 2016 6:58:30 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_FA has been loaded.
-Sep 27, 2016 6:58:30 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_FB has been loaded.
-Sep 27, 2016 6:58:30 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_UA has been loaded.
-Sep 27, 2016 6:58:30 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:01 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_UB has been loaded.
-Sep 27, 2016 6:58:30 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DF_FA has been loaded.
-Sep 27, 2016 6:58:31 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DF_FB has been loaded.
-Sep 27, 2016 6:58:31 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_F_D_DFA has been loaded.
-Sep 27, 2016 6:58:31 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_F_D_DFB has been loaded.
-Sep 27, 2016 6:58:31 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DB_BA has been loaded.
-Sep 27, 2016 6:58:31 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DB_BB has been loaded.
-Sep 27, 2016 6:58:31 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_D_DF_FA has been loaded.
-Sep 27, 2016 6:58:32 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_D_DF_FB has been loaded.
-Sep 27, 2016 6:58:32 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_F_D_DFA has been loaded.
-Sep 27, 2016 6:58:32 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_F_D_DFB has been loaded.
-Sep 27, 2016 6:58:32 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:02 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_D_DB_BA has been loaded.
-Sep 27, 2016 6:58:33 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:03 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_AIR_D_DB_BB has been loaded.
-Sep 27, 2016 6:58:33 PM image.ImageContainer loadCharacterFile
+Sep 28, 2016 10:34:03 AM image.ImageContainer loadCharacterFile
 INFO: Image : ZEN_STAND_D_DF_FC has been loaded.
-Sep 27, 2016 6:58:33 PM gamestate.Play setting
-INFO: 0,
-Sep 27, 2016 6:58:33 PM gamestate.Play setting
+Sep 28, 2016 10:34:03 AM gamestate.Play setting
 INFO: 2,
-Sep 27, 2016 6:58:33 PM gamestate.Play setting
+Sep 28, 2016 10:34:03 AM gamestate.Play setting
+INFO: 0,
+Sep 28, 2016 10:34:03 AM gamestate.Play setting
 INFO: KebabAI,
-Sep 27, 2016 6:58:33 PM gamestate.Play setting
+Sep 28, 2016 10:34:03 AM gamestate.Play setting
 INFO: ZEN,
-Sep 27, 2016 6:58:33 PM gamestate.Play setting
+Sep 28, 2016 10:34:03 AM gamestate.Play setting
 INFO: ZEN,
-Sep 27, 2016 6:58:34 PM game.GameState registerId
+Sep 28, 2016 10:34:03 AM game.GameState registerId
 INFO: This game state is registered as : ID 2
-Sep 27, 2016 6:58:34 PM game.GameManager changeGameState
+Sep 28, 2016 10:34:03 AM game.GameManager changeGameState
 INFO: Change Game State to : ID 2
-Sep 27, 2016 6:58:38 PM game.GameManager changeGameState
+Sep 28, 2016 10:34:55 AM game.GameManager changeGameState
 INFO: Change Game State to : ID 1
-Sep 27, 2016 6:58:38 PM game.GameManager changeGameState
+Sep 28, 2016 10:34:55 AM game.GameManager changeGameState
 INFO: Change Game State to : ID 0
-Sep 27, 2016 6:58:44 PM display.DisplayManager start
-INFO: Close Display
+Sep 28, 2016 10:35:01 AM game.GameState registerId
+INFO: This game state is registered as : ID 1
+Sep 28, 2016 10:35:01 AM game.GameManager changeGameState
+INFO: Change Game State to : ID 1
+Sep 28, 2016 10:35:01 AM gamestate.Play setting
+INFO: 0,
+Sep 28, 2016 10:35:01 AM gamestate.Play setting
+INFO: 2,
+Sep 28, 2016 10:35:01 AM gamestate.Play setting
+INFO: KebabAI,
+Sep 28, 2016 10:35:01 AM gamestate.Play setting
+INFO: ZEN,
+Sep 28, 2016 10:35:01 AM gamestate.Play setting
+INFO: ZEN,
+Sep 28, 2016 10:35:01 AM game.GameState registerId
+INFO: This game state is registered as : ID 2
+Sep 28, 2016 10:35:01 AM game.GameManager changeGameState
+INFO: Change Game State to : ID 2
+Sep 28, 2016 10:36:36 AM game.GameManager changeGameState
+INFO: Change Game State to : ID 1
+Sep 28, 2016 10:36:36 AM game.GameManager changeGameState
+INFO: Change Game State to : ID 0
