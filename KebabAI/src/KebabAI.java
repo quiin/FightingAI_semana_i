@@ -57,6 +57,7 @@ public class KebabAI implements AIInterface {
 			if (cc.getskillFlag()) {
 				inputKey = cc.getSkillKey();
 			} else {
+				Action enemyAction = opponent.getAction();
 				inputKey.empty();
 				cc.skillCancel();
 				
@@ -65,16 +66,26 @@ public class KebabAI implements AIInterface {
 					return;
 				}
 
+				int distance = cc.getDistanceX();
 				if (!stepBackIfNeeded()) {
 					if (myCharacter.getEnergy() >= 300) {
 						cc.commandCall("2 3 6 _ C");
 					} else {
-						cc.commandCall("2 1 4 _ A");
+						int characterHitBoxX = myCharacter.right - myCharacter.left;
+						//Me estan spameando -> salta
+						System.out.println("Distance: " +distance);
+						if(enemyAction.name().equalsIgnoreCase("STAND_D_DF_FA")
+								|| distance <= 185){
+							System.out.println("SEND HALP");
+							cc.commandCall(Action.STAND_D_DB_BA.name());
+						}else{
+							cc.commandCall(Action.STAND_D_DF_FA.name());
+						}
+						
 					}
 				}
 				
-				int distance = cc.getDistanceX();
-				int enemyVerticalDistance = cc.getEnemyY();
+	
 
 			}
 		}
@@ -130,7 +141,7 @@ public class KebabAI implements AIInterface {
 			return true;
 		} else if (characterCornered(opponent)) {
 			// Opponent is cornered.
-			System.out.println("Opponent cornered");
+			//System.out.println("Opponent cornered");
 			if (Math.random()*10 < 5) {
 				cc.commandCall("A");
 			} else {
@@ -139,18 +150,18 @@ public class KebabAI implements AIInterface {
 			return true;
 		} else if (characterFaceToFace()) {
 			// Face to face but not cornered
-			System.out.println("Starting wombo combo 1");
+			//System.out.println("Starting wombo combo 1");
 			womboCombo1();
 //			le pican 8 -> salto
 //			el pedo es q tienen q checar hacia donde está viendo el dude
 //			porque si le ponen q se vaya para atras pero no está viendo balh blah -> pendeje
 //			8 6 -> salto y atrás
 			//cc.commandCall(Action.BACK_STEP.name());
-			System.out.println("We are face to face");
+			//System.out.println("We are face to face");
 			return true;
 		}
 		
-		System.out.println("not in the danger zone");
+		//System.out.println("not in the danger zone");
 		return false;
 	}
 
